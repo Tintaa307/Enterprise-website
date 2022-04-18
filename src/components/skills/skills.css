@@ -1,0 +1,101 @@
+.section-skills {
+    width: 92.5;
+    margin-top: 18rem;
+    margin-bottom: 8rem;
+    margin-left: 100px;
+}
+
+.section-skills .container-title {
+    padding-left: 15rem;
+}
+
+.section-skills .container-title h1 {
+    color: var(--color-main);
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding-bottom: 4.5rem;
+    user-select: none;
+}
+
+.section-skills .container-compare-skills {
+    width: 50%;
+    margin-top: -40px;
+}
+
+.section-skills .container-compare-skills::before {
+    content: '<experience>';
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-skills .container-compare-skills::after {
+    content: '</experience>';
+    position: relative;
+    top: -20px;
+    left: 40px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-skills .container-compare-skills .container-skills .skills {
+    margin: 4rem 4rem;
+}
+
+.section-skills .container-compare-skills .container-skills .skills h3 {
+    color: #fff;
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+    user-select: none;
+}
+
+.section-skills .container-compare-skills .container-skills .skills .container-dash {
+    width: 90%;
+    height: 5px;
+    background-color: #000;
+}
+
+.section-skills .container-skills-text {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    right: 40px;
+    top: 2280px;
+    border: 1px solid var(--color-main);
+    border-radius: 15px;
+}
+
+.section-skills .container-skills-text::before {
+    content: '<skills>';
+    position: absolute;
+    top: -50px;
+    left: 500px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-skills .container-skills-text::after {
+    content: '</skills>';
+    position: absolute;
+    top: 520px;
+    left: 500px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-skills .container-skills-text .container-texts {
+    position: absolute;
+}
+
+.section-skills .container-skills-text .container-texts span {
+    color: var(--color-main);
+    font-size: 1.5rem;
+    padding-left: 40px;
+    user-select: none;
+}

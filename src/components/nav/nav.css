@@ -1,0 +1,85 @@
+.section-nav {
+    background: #181818;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+}
+
+.section-nav .container-icon {
+    background-color: var(--black);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.section-nav .container-icon img {
+    width: 170%;
+    position: absolute;
+    top: -10px;
+    left: -40px;
+}
+
+.section-nav .lista-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-nav .lista-nav li {
+    padding: 20px 0;
+}
+
+.section-nav .lista-nav li i {
+    color: #000;
+    position: relative;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 2;
+    display: block;
+}
+
+.section-nav .lista-nav li i.disable {
+    display: none;
+    transition: .4s;
+}
+
+.section-nav .lista-nav li h6 {
+    position: absolute;
+    color: var(--color-main);
+    font-size: 0.883rem;
+    letter-spacing: 1px;
+    left: 28px;
+    top: 185px;
+    display: none;
+}
+
+.section-nav .lista-nav li i:hover {
+    color: var(--color-main);
+    transition: .4s;
+}
+
+.section-nav .container-redes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.section-nav .container-redes .lista-redes li {
+    padding: 20px 0;
+}
+
+.section-nav .container-redes .lista-redes li i {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.section-nav .container-redes .lista-redes li i:hover {
+    color: var(--color-main);
+    transition: .4s;
+}

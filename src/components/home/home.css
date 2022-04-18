@@ -1,0 +1,208 @@
+.section-home {
+    width: 92.5%;
+    height: 100vh;
+    position: relative;
+    left: 100px;
+}
+
+.section-home img {
+    width: 27%;
+    position: relative;
+    margin: -60px -50px;
+    margin-right: -90px;
+    margin-left: -90px;
+    left: 30px;
+    top: 16px;
+}
+
+.section-home h1.title {
+    font-size: 6rem;
+    margin-left: 6rem;
+    padding-top: 4rem;
+    user-select: none;
+}
+
+.section-home h1 span.letter:hover {
+    color: var(--color-main);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.section-home .container-text {
+    position: relative;
+    left: 105px;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-home .container-text::before {
+    content: '<h3>';
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-home .container-text::after {
+    content: '</h3>';
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-home .container-text h3 {
+    color: var(--text-color);
+    font-size: var(--h1-font-size);
+    letter-spacing: 1.5px;
+}
+
+.section-home .container-btn {
+    position: absolute;
+    top: 600px;
+    left: 105px;
+}
+
+.section-home .container-btn button.contact {
+    background-color: transparent;
+    border: 1px solid var(--color-main);
+    width: 250px;
+    height: 60px;
+    font-size: var(--h3-font-size);
+    color: var(--color-main);
+    letter-spacing: 3.5px;
+    cursor: pointer;
+}
+
+.section-home .container-btn button.contact span.text {
+    position: relative;
+    z-index: 4;
+    user-select: none;
+}
+
+.section-home .container-btn button.contact span.dash {
+    position: absolute;
+    width: 0%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: var(--color-main);
+    transition: 0.4s;
+}
+
+.section-home .container-btn button.contact:hover span.text {
+    color: #000;
+}
+
+.section-home .container-btn button.contact:hover span.dash {
+    width: 100%;
+    transition: 0.4s;
+    background-color: var(--color-main);
+}
+
+.section-home .container-scroll-lf {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.section-home .container-scroll-lf span {
+    color: #fff;
+    position: absolute;
+    bottom: 90px;
+    left: -10px;
+    transform: rotate(90deg);
+    font-size: 1rem;
+    animation: scroller 1s linear infinite;
+}
+
+.section-home .container-scroll-lf i {
+    color: #fff;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.section-home .container-scroll-rg {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.section-home .container-scroll-rg span {
+    color: #fff;
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    transform: rotate(90deg);
+    font-size: 1rem;
+    animation: scroller 1s linear infinite;
+}
+
+.section-home .container-scroll-rg i {
+    color: #fff;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 30px;
+    right: 33px;
+}
+
+.section-home .container-sun {
+    position: absolute;
+    top: 60px;
+    right: 170px;
+}
+
+.section-home .container-sun i.ri-sun-line {
+    color: #FFFF66;
+    font-size: 4rem;
+    display: block;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.section-home .container-sun i.ri-sun-line.disable {
+    display: none;
+    transition: .4s ease-in-out;
+}
+
+.section-home .container-sun i.ri-moon-line {
+    color: #000;
+    font-size: 4rem;
+    display: none;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.section-home .container-sun i.ri-moon-line.show {
+    transition: .4s ease-in-out;
+    display: block;
+}
+
+
+/* ANIMACIONES */
+@keyframes scroller {
+    0% {
+        rotate: 90deg;
+        position: absolute;
+        bottom: 90px;
+    }
+
+    50% {
+        rotate: 90deg;
+        position: absolute;
+        bottom: 130px;
+    }
+
+    100% {
+        rotate: 90deg;
+        position: absolute;
+        bottom: 90px;
+    }
+}

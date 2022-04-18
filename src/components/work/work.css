@@ -1,0 +1,254 @@
+.section-work {
+    width: 92.5%;
+    margin-top: 18rem;
+    margin-bottom: 8rem;
+    margin-left: 100px;
+}
+
+.section-work .container-title {
+    padding-left: 4rem;
+}
+
+.section-work .container-title h1 {
+    color: var(--color-main);
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding-bottom: 4.5rem;
+    user-select: none;
+}
+
+.section-work .container-works-info {
+    width: 50%;
+    margin-bottom: 8rem;
+}
+
+.section-work .container-works-info p {
+    margin-left: 4rem;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    user-select: none;
+}
+
+.section-work .container-works-info::before {
+    content: '<p>';
+    position: relative;
+    top: -20px;
+    left: 70px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-work .container-works-info::after {
+    content: '</p>';
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-size: 1.3rem;
+    font-family: var(--details-font);
+    color: var(--text-color);
+}
+
+.section-work .container-works-info p span {
+    color: var(--color-main);
+}
+
+.section-work .container-progress {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.section-work .container-progress .container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-work .container-progress .container-buttons .container-btn {
+    display: inline-block;
+    margin: 0 5rem;
+}
+
+.section-work .container-progress .container-buttons .container-btn button {
+    width: 100px;
+    height: 100px;
+    background-color: #0000CC;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #000;
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    font-family: var(--details-font);
+}
+
+.section-work .container-progress .container-buttons .container-btn button span {
+    user-select: none;
+}
+
+.section-work .container-progress .container-buttons .container-btn:nth-child(2) button {
+    background-color: #FF0033;
+    border: 2px solid #fff;
+}
+
+.section-work .container-progress .container-buttons .container-btn:nth-child(3) button {
+    background-color: #9933FF;
+    border: 2px solid #fff;
+}
+
+.section-work .container-progress .container-buttons .container-btn:nth-child(4) button {
+    background-color: #CC66FF;
+    border: 2px solid #fff;
+}
+
+.section-work .container-progress .container-buttons .container-btn:nth-child(5) button {
+    background-color: #FFFF33;
+    border: 2px solid #fff;
+}
+
+.section-work .container-imgs-progress {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img1 {
+    width: 50%;
+    display: block;
+    margin: auto;
+    transform: translateX(-1500px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+
+.section-work .container-imgs-progress .item-img1.show {
+    transform: translateX(0);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.section-work .container-imgs-progress .item-img1 h2 {
+    padding-left: 20px;
+    color: var(--color-main);
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img1 img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -5rem;
+}
+
+.section-work .container-imgs-progress .item-img2 {
+    width: 50%;
+    transform: translateX(-1500px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+
+.section-work .container-imgs-progress .item-img2.show {
+    transform: translateX(0);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.section-work .container-imgs-progress .item-img2 h2 {
+    padding-left: 50px;
+    color: var(--color-main);
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img2 img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -5rem;
+}
+
+.section-work .container-imgs-progress .item-img3 {
+    width: 50%;
+    transform: translateX(-1500px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+
+.section-work .container-imgs-progress .item-img3.show {
+    transform: translateX(0);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.section-work .container-imgs-progress .item-img3 h2 {
+    padding-left: 10px;
+    color: var(--color-main);
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img3 img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -5rem;
+}
+
+.section-work .container-imgs-progress .item-img4 {
+    width: 50%;
+    transform: translateX(-1500px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+
+.section-work .container-imgs-progress .item-img4.show {
+    transform: translateX(0);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.section-work .container-imgs-progress .item-img4 h2 {
+    padding-left: 20px;
+    color: var(--color-main);
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img4 img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -5rem;
+}
+
+.section-work .container-imgs-progress .item-img5 {
+    width: 50%;
+    transform: translateX(-1500px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+
+.section-work .container-imgs-progress .item-img5.show {
+    transform: translateX(0);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.section-work .container-imgs-progress .item-img5 h2 {
+    margin-left: -18px;
+    color: var(--color-main);
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-work .container-imgs-progress .item-img5 img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -5rem;
+}

@@ -1,0 +1,68 @@
+/* ============= GOOGLE FONTS ============= */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+/* ============= VARIABLES CSS ============= */
+
+:root {
+
+    /* =========== COLORS =========== */
+    --color-main: #08fdd8;
+    --title-color: hsl(219, 8%, 95%);
+    --text-color: #8d8d8d;
+    --body-color: #1d1d1d;
+    --black: #000;
+
+    /* =========== FONT TYPE =========== */
+    --body-font: 'Exo', sans-serif;
+    --details-font: 'La Belle Aurore', cursive;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.50rem;
+    --h3-font-size: 1.25rem;
+    --default-size : 1rem;
+    --sm-size: .883rem;
+    --sxm-size: .75rem;
+}
+
+/* ============= BASE CSS ============= */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--container-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 5rem;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--body-color);
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.section {
+    margin-top: 4rem;
+}
