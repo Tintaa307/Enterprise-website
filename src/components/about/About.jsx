@@ -77,7 +77,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                 whileInView={{ y: [0, 0, 240, 240, 240, -1, 0],
-                x: [0, -350, -350, 0, 350, 350, 0] }}
+                x: [0, -300, -300, 0, 350, 350, 0] }}
                 viewport={{ once: true}}
                 transition={{ duration: 5, type: 'spring', bounce: 0.6, delay: 4}} className="container-card">
                     <img src={Burgers} alt="" />
@@ -89,7 +89,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                 whileInView={{ y: [0, 0, 0, 240, 240, 240, 0],
-                x: [0, -350, -700, -700, -350, 0, 0] }}
+                x: [0, -300, -650, -650, -300, 0, 0] }}
                 viewport={{ once: true}}
                 transition={{ duration: 5, type: 'spring', bounce: 0.6, delay: 4}} className="container-card">
                     <img src={Coffee} alt="" />
@@ -113,7 +113,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                 whileInView={{ y: [0, 0, -240, -240, -240, 0, 0], 
-                x: [0, 350, 350, 0, -350, -350, 0] }}
+                x: [0, 350, 350, 0, -300, -300, 0] }}
                 viewport={{ once: true}} 
                 transition={{ duration: 5, type: 'spring', bounce: 0.6, delay: 2.5}} className="container-card">
                     <img src={Plants} alt="" />
@@ -125,7 +125,7 @@ const About = () => {
                 </motion.div>
                 <motion.div 
                 whileInView={{ y: [0, -240, -240, -240, 0, 0, 0], 
-                x: [0, 0, -350, -700, -700, -350, 0] }}
+                x: [0, 0, -300, -650, -650, -300, 0] }}
                 viewport={{ once: true}}
                 transition={{ duration: 5, type: 'spring', bounce: 0.6, delay: 2.5}} className="container-card">
                     <img src={Tinta} alt="" />

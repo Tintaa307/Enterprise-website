@@ -57,6 +57,7 @@
 .section-about .container-proyects {
     width: 90%;
     margin-top: 6rem;
+    margin-left: 4rem;
 }
 
 .section-about .container-proyects .container-card {
@@ -94,7 +95,7 @@
 .section-about .container-proyects .container-card .capa h5 {
     color: var(--color-main);
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
     font-size: var(--h2-font-size);
     letter-spacing: 1.7px;
     user-select: none;
@@ -102,8 +103,8 @@
 
 .section-about .container-proyects .container-card .capa h6 {
     position: relative;
-    bottom: -80px;
-    left: 30px;
+    bottom: -70px;
+    left: 20px;
     color: #fff;
     letter-spacing: 1.4px;
     font-size: var(--h3-font-size);
@@ -118,8 +119,8 @@
 
 .section-about .container-proyects .container-card .capa i.ri-links-line {
     position: relative;
-    left: 230px;
-    top: 50px;
+    left: 190px;
+    top: 40px;
     background-color: var(--color-main);
     color: #000;
     font-size: 2rem;
