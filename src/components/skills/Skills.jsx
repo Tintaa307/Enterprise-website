@@ -81,7 +81,7 @@ const Skills = () => {
                         <h3>Front-end</h3>
                         <div className="container-dash">
                             <motion.div initial={{ width: 0, color: "#000" }}
-                            whileInView={{ width: 420, height: 5, background: "#08fdd8" }}
+                            whileInView={{ width: 380, height: 5, background: "#08fdd8" }}
                             transition={{ duration: 2, type: 'spring', bounce: 0.7, delay: 2.8 }}
                             viewport={{ once: true }} className="dash1">
                             </motion.div>
@@ -91,7 +91,7 @@ const Skills = () => {
                         <h3>ReactJS</h3>
                         <div className="container-dash">
                             <motion.div initial={{ width: 0, color: "#000" }}
-                            whileInView={{ width: 370, height: 5, background: "#FF0033" }}
+                            whileInView={{ width: 330, height: 5, background: "#FF0033" }}
                             transition={{ duration: 2, type: 'spring', bounce: 0.7, delay: 3.3 }}
                             viewport={{ once: true }} className="dash2">
                             </motion.div>
@@ -101,7 +101,7 @@ const Skills = () => {
                         <h3>Back-end</h3>
                         <div className="container-dash">
                             <motion.div initial={{ width: 0, color: "#000" }}
-                            whileInView={{ width: 310, height: 5, background: "#9933FF" }}
+                            whileInView={{ width: 280, height: 5, background: "#9933FF" }}
                             transition={{ duration: 2, type: 'spring', bounce: 0.7, delay: 3.8 }}
                             viewport={{ once: true }} className="dash3">
                             </motion.div>
@@ -111,7 +111,7 @@ const Skills = () => {
                         <h3>TypeScript</h3>
                         <div className="container-dash">
                             <motion.div initial={{ width: 0, color: "#000" }}
-                            whileInView={{ width: 240, height: 5, background: "#CC66FF" }}
+                            whileInView={{ width: 220, height: 5, background: "#CC66FF" }}
                             transition={{ duration: 2, type: 'spring', bounce: 0.7, delay: 4.2 }}
                             viewport={{ once: true }} className="dash4">
                             </motion.div>

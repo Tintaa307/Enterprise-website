@@ -47,7 +47,7 @@
     font-size: 1.3rem;
     font-family: var(--details-font);
     color: var(--text-color);
-    left: -440px;
+    left: -485px;
 }
 
 .section-about .container-info p a {
@@ -55,7 +55,7 @@
 }
 
 .section-about .container-proyects {
-    width: 100%;
+    width: 90%;
     margin-top: 6rem;
 }
 
