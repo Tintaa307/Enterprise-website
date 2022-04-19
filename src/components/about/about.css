@@ -40,14 +40,15 @@
     color: var(--text-color);
 }
 
-.section-about .container-info p::after {
+.section-about .container-info::after {
     content: '</p>';
     position: relative;
-    top: 50px;
+    top: 20px;
+    left: -8px;
     font-size: 1.3rem;
     font-family: var(--details-font);
     color: var(--text-color);
-    left: -485px;
+    
 }
 
 .section-about .container-info p a {
